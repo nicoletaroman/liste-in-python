@@ -1,0 +1,12 @@
+lista1=[4,8,7,5,6,9,-3,0]
+print("lista initiala este",lista1)
+lista2=sorted(lista1)
+lista3=sorted(lista1,reverse=True)
+print("lista sortata crescator este",lista2)
+print("lista sortata descrescator este",lista3)
+print("lungimea listei este",len(lista1))
+print("valoare maxima a listei este",max(lista1))
+print("valoare minima a listei este",min(lista1))
+print("punctul g,lista cu 111 la coada este",lista1+[111])
+lista1.insert(2,222)
+print("puntul h,lista cu 222 pe poziti 2 este",lista1)
